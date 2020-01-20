@@ -49,7 +49,7 @@ public class _00_ArrayCheatSheet {
 		// 10. print the largest number in the array.
 		
 		int greatestNumber = 0;
-		for(int i = 0; i > integers.length; i++ ) {
+		for(int i = 0; i < integers.length; i++ ) {
 			if(greatestNumber < integers[i]) {
 				greatestNumber = integers[i];
 			}
